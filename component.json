@@ -1,0 +1,13 @@
+{
+  "name": "test-huyest",
+  "version": "0.0.3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "es5-shim": "*"
+  }
+}

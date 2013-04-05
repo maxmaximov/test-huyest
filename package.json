@@ -1,0 +1,17 @@
+{
+  "name": "test-huyest",
+  "version": "0.0.3",
+  "description": "Vsem Test Huyest, posony",
+  "main": "ttt.js",
+  "scripts": {
+    "test": "echo 'Vsem Huyest, posony'",
+    "start": "echo 'Poehali'"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "express": "*",
+    "request": "*"
+  }
+}
