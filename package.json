@@ -1,10 +1,11 @@
 {
   "name": "test-huyest",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Vsem Test Huyest, posony",
   "main": "ttt.js",
   "scripts": {
-    "install": "bower install",
+    "postinstall": "bower install",
+    "prepublish": "semver-sync -t && git push && git push --tags",
     "test": "semver-sync -v",
     "start": "echo 'Поехали'",
     "stop": "echo 'Приехали'"
