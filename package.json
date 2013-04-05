@@ -9,7 +9,10 @@
     "start": "echo 'Поехали'",
     "stop": "echo 'Приехали'"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxmaximov/test-huyest"
+  },
   "author": "",
   "license": "BSD",
   "dependencies": {
