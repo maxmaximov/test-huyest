@@ -4,8 +4,10 @@
   "description": "Vsem Test Huyest, posony",
   "main": "ttt.js",
   "scripts": {
-    "test": "echo 'Vsem Huyest, posony'",
-    "start": "echo 'Poehali'"
+    "install": "bower install",
+    "test": "semver-sync -v",
+    "start": "echo 'Поехали'",
+    "stop": "echo 'Приехали'"
   },
   "repository": "",
   "author": "",
